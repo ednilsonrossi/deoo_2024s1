@@ -35,8 +35,11 @@ public class DirectorDataset {
         }
         return null;
     }
+<<<<<<< HEAD
 
     public List<Director> getAll(){
         return dataset;
     }
+=======
+>>>>>>> 5bf0a377a470a89634818f23a9d7bec1e9fda5db
 }
