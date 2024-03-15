@@ -3,6 +3,7 @@ package controller;
 import model.User;
 import model.dao.UserDao;
 import model.dao.UserDaoImpl;
+import model.dao.UserDaoMapImpl;
 import model.dao.UserDaoSetImpl;
 import view.UserView;
 
@@ -16,7 +17,8 @@ public class UserController {
     public UserController(UserView view) {
         this.view = view;
         //dao = UserDaoImpl.getInstance();
-        dao = UserDaoSetImpl.getInstance();
+        //dao = UserDaoSetImpl.getInstance();
+        dao = UserDaoMapImpl.getInstance();
     }
 
     public void run(){

@@ -2,10 +2,7 @@ package model.dao;
 
 import model.User;
 
-import java.util.Collection;
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 public class UserDaoImpl implements UserDao{
     private static UserDaoImpl instance;
@@ -39,6 +36,13 @@ public class UserDaoImpl implements UserDao{
         userList.add(user);
         Collections.sort(userList);
         return true;
+    }
+
+    private void nada(){
+        Iterator<User> iterator = userList.iterator();
+        while (iterator.hasNext()){
+            var u = iterator.next();
+        }
     }
 
     @Override
