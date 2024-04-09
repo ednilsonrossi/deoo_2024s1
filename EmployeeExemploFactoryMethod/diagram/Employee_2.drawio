@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net" modified="2024-04-07T23:56:27.593Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="PHd1ZaINcmOQ-SJSh6QA" version="24.2.2" type="device">
+  <diagram name="Página-1" id="gqNQKAfLWtqE8ZWEnjdm">
+    <mxGraphModel dx="1434" dy="1991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hcNmaq9PWJtdAK9Obkva-8" value="model" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="330" y="-20" width="1040" height="730" as="geometry" />
+        </mxCell>
+        <mxCell id="hcNmaq9PWJtdAK9Obkva-9" value="" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;whiteSpace=wrap;" vertex="1" parent="hcNmaq9PWJtdAK9Obkva-8">
+          <mxGeometry width="810.9359743339378" height="228.3191489361702" relative="1" as="geometry">
+            <mxPoint y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hcNmaq9PWJtdAK9Obkva-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&amp;lt;&amp;lt;abstract&amp;gt;&amp;gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Employee&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- name: String&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Emplyee(name: String)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getName(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;i&gt;+ getSalary(): Double&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;i&gt;+ applyReadjustment()&lt;br&gt;&lt;/i&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#000000;" vertex="1" parent="hcNmaq9PWJtdAK9Obkva-8">
+          <mxGeometry x="170" y="60.07" width="168.96800000000002" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="hcNmaq9PWJtdAK9Obkva-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Package Visibilite&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Teacher&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- hoursPerWeek: Int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- hourlyRate: Double&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Teacher(name: String, hourPerWeek: Int, hourlyRate: Double)&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;strokeColor=#000000;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#fff2cc;" vertex="1" parent="hcNmaq9PWJtdAK9Obkva-8">
+          <mxGeometry x="40" y="515.29" width="350" height="133.53" as="geometry" />
+        </mxCell>
+        <mxCell id="hcNmaq9PWJtdAK9Obkva-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Package Visibilite&amp;gt;&amp;gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Technician&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- salary: Double&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Technician(name: String, salary: Double)&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;strokeColor=#000000;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#fff2cc;" vertex="1" parent="hcNmaq9PWJtdAK9Obkva-8">
+          <mxGeometry x="310" y="356.58" width="242.99200000000002" height="109.78" as="geometry" />
+        </mxCell>
+        <mxCell id="hcNmaq9PWJtdAK9Obkva-4" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="hcNmaq9PWJtdAK9Obkva-8" source="hcNmaq9PWJtdAK9Obkva-2" target="hcNmaq9PWJtdAK9Obkva-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="275.34105175059284" y="714.4680851063829" as="sourcePoint" />
+            <mxPoint x="577.0846701074069" y="714.4680851063829" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hcNmaq9PWJtdAK9Obkva-5" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="hcNmaq9PWJtdAK9Obkva-8" source="hcNmaq9PWJtdAK9Obkva-3" target="hcNmaq9PWJtdAK9Obkva-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="275.34105175059284" y="714.4680851063829" as="sourcePoint" />
+            <mxPoint x="577.0846701074069" y="714.4680851063829" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hcNmaq9PWJtdAK9Obkva-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;EmployeeFactory&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;br&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ factoryMethod(args[ ]: Object): Employee &lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;strokeColor=#000000;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#fff2cc;" vertex="1" parent="hcNmaq9PWJtdAK9Obkva-8">
+          <mxGeometry x="719.9976074766355" y="79.99941176470588" width="262.4299065420561" height="150.2941176470588" as="geometry" />
+        </mxCell>
+        <mxCell id="hcNmaq9PWJtdAK9Obkva-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;TechnicianFactoryImpl&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;strokeColor=#000000;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#fff2cc;" vertex="1" parent="hcNmaq9PWJtdAK9Obkva-8">
+          <mxGeometry x="719.998355140187" y="363.15647058823527" width="155.51401869158877" height="96.61764705882352" as="geometry" />
+        </mxCell>
+        <mxCell id="hcNmaq9PWJtdAK9Obkva-10" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.28;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.489;exitY=-0.062;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="hcNmaq9PWJtdAK9Obkva-8" source="hcNmaq9PWJtdAK9Obkva-7" target="hcNmaq9PWJtdAK9Obkva-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="448" y="390" as="sourcePoint" />
+            <mxPoint x="576" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hcNmaq9PWJtdAK9Obkva-12" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;TeacherFactoryImpl&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;strokeColor=#000000;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#fff2cc;" vertex="1" parent="hcNmaq9PWJtdAK9Obkva-8">
+          <mxGeometry x="840.000355140187" y="507.9964705882353" width="155.51401869158877" height="96.61764705882352" as="geometry" />
+        </mxCell>
+        <mxCell id="hcNmaq9PWJtdAK9Obkva-13" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="hcNmaq9PWJtdAK9Obkva-8" source="hcNmaq9PWJtdAK9Obkva-12" target="hcNmaq9PWJtdAK9Obkva-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="472" y="390" as="sourcePoint" />
+            <mxPoint x="600" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hcNmaq9PWJtdAK9Obkva-14" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="hcNmaq9PWJtdAK9Obkva-8" source="hcNmaq9PWJtdAK9Obkva-7" target="hcNmaq9PWJtdAK9Obkva-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="472" y="390" as="sourcePoint" />
+            <mxPoint x="600" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hcNmaq9PWJtdAK9Obkva-15" value="create" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hcNmaq9PWJtdAK9Obkva-14">
+          <mxGeometry x="0.2485" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hcNmaq9PWJtdAK9Obkva-16" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="hcNmaq9PWJtdAK9Obkva-8" source="hcNmaq9PWJtdAK9Obkva-12" target="hcNmaq9PWJtdAK9Obkva-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="472" y="390" as="sourcePoint" />
+            <mxPoint x="600" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hcNmaq9PWJtdAK9Obkva-17" value="create" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hcNmaq9PWJtdAK9Obkva-16">
+          <mxGeometry x="-0.2851" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hcNmaq9PWJtdAK9Obkva-20" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.004;exitY=0.393;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="hcNmaq9PWJtdAK9Obkva-8" source="hcNmaq9PWJtdAK9Obkva-6" target="hcNmaq9PWJtdAK9Obkva-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="380" y="390" as="sourcePoint" />
+            <mxPoint x="540" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
