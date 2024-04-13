@@ -1,4 +1,16 @@
+/**
+ * @Autor: Ednilson Rossi
+ * @Date: apr, 2024
+ *
+ *
+ * A classe Rational foi elaborada com o objetivo de demostrar e aplicar o design pattern Static Factory Method, que
+ * consiste em disponibilizar ao usuário da classe a possibilidade de instanciar objetos usando métodos estáticos
+ * especializados. Nesta classe os Static Factory Methods são: of() e copy(), cujo objetivo é devolver um objeto
+ * da classe Rational. Ainda neste exemplo optou-se por mater os construtores privados, contudo essa não é uma
+ * condição obrigatória para o uso do design pattern.
+ */
 package model;
+
 
 public class Rational {
 

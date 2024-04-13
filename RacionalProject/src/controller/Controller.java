@@ -13,6 +13,16 @@ public class Controller {
         this.view = view;
     }
 
+    /**
+     * Método fará a leitura de vários racionais, considerando como estratégia a solicitação do usuário
+     * para encerrar a leitura. São lidos e somados diversos números racionais e a média aritmética
+     * é obtida pela divisão da soma dos racionais pela quantidade de racionais, aplicando a propriedade
+     * dos racionais sendo:
+     *
+     * soma_numerador                 1
+     * ----------------    X    ---------------
+     * soma_denominador           quantidade
+     */
     public void average(){
         Rational number, sum, average;
         int quantity;
