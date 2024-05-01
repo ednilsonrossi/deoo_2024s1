@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" modified="2024-05-01T14:07:10.774Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="Oun358rvfPdGHoDyBhjj" version="24.2.7" type="device">
+  <diagram name="Página-1" id="z4eVZP6Idko0NqCOTC5V">
+    <mxGraphModel dx="1434" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Eeyai24ofjLyaN5wvZX_-14" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Material&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- titulo: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- anoPublicacao: Int&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="318" y="50" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Eeyai24ofjLyaN5wvZX_-15" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;LivroFisico&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- autores: Sting&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- prateleira: String&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;strokeColor=#000000;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="34" y="240" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Eeyai24ofjLyaN5wvZX_-16" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Eeyai24ofjLyaN5wvZX_-15" target="Eeyai24ofjLyaN5wvZX_-14">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="314" y="440" as="sourcePoint" />
+            <mxPoint x="474" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eeyai24ofjLyaN5wvZX_-17" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;PeriodicoFísico&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- grauImpacto: Int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- prateleira: String&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;strokeColor=#000000;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="434" y="240" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Eeyai24ofjLyaN5wvZX_-18" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Eeyai24ofjLyaN5wvZX_-17" target="Eeyai24ofjLyaN5wvZX_-14">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="314" y="440" as="sourcePoint" />
+            <mxPoint x="474" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eeyai24ofjLyaN5wvZX_-19" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;LivroDigital&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- autores: Sting&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- link: String&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;strokeColor=#000000;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="234" y="240" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Eeyai24ofjLyaN5wvZX_-20" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;PeriodicoDigital&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- grauImpacto: Int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- link: String&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;strokeColor=#000000;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="634" y="240" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Eeyai24ofjLyaN5wvZX_-21" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Eeyai24ofjLyaN5wvZX_-19" target="Eeyai24ofjLyaN5wvZX_-14">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="324" y="195" as="sourcePoint" />
+            <mxPoint x="484" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eeyai24ofjLyaN5wvZX_-22" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Eeyai24ofjLyaN5wvZX_-20" target="Eeyai24ofjLyaN5wvZX_-14">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="324" y="195" as="sourcePoint" />
+            <mxPoint x="484" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
