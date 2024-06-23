@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" modified="2024-06-23T20:52:21.674Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="HIDNWGgz2whiQDekkxP4" version="24.6.2" type="device">
+  <diagram name="Página-1" id="_CxbQXrcy2M7T4xgbaUL">
+    <mxGraphModel dx="1434" dy="822" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pwfKYRY62ze1xlDz6l7z-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;IDeveloper&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getSalary(): double&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="319" y="53" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="pwfKYRY62ze1xlDz6l7z-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Developer&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- name: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- salary: Double&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Developer(name: String, salary: Double)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getName(): String&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="138" y="271" width="260" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="pwfKYRY62ze1xlDz6l7z-3" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="pwfKYRY62ze1xlDz6l7z-2" target="pwfKYRY62ze1xlDz6l7z-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="332" y="427" as="sourcePoint" />
+            <mxPoint x="492" y="427" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pwfKYRY62ze1xlDz6l7z-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Company&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- name: String&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Company(name: String)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getName(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ addDev(dev: IDevelopres)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="467" y="271" width="160" height="121" as="geometry" />
+        </mxCell>
+        <mxCell id="pwfKYRY62ze1xlDz6l7z-5" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="pwfKYRY62ze1xlDz6l7z-4" target="pwfKYRY62ze1xlDz6l7z-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="332" y="427" as="sourcePoint" />
+            <mxPoint x="492" y="427" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pwfKYRY62ze1xlDz6l7z-8" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="pwfKYRY62ze1xlDz6l7z-1" target="pwfKYRY62ze1xlDz6l7z-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="332" y="427" as="sourcePoint" />
+            <mxPoint x="492" y="427" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="701" y="81" />
+              <mxPoint x="703" y="301" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pwfKYRY62ze1xlDz6l7z-9" value="- devs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pwfKYRY62ze1xlDz6l7z-8">
+          <mxGeometry x="-0.6799" y="2" relative="1" as="geometry">
+            <mxPoint x="-56" y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
