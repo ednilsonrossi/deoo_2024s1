@@ -19,8 +19,17 @@ public class Main {
                 .serialNumber(987654321)
                 .manufacturer("Apple")
                 .build();
+        
+        Smartphone.SmartphoneBuilder builder = new Smartphone.SmartphoneBuilder();
+        builder
+        	.os("Symbian")
+        	.manufacturer("Nokia");
+        Smartphone sm = builder.build();
+        
+        
 
         System.out.println(smartphone1);
         System.out.println(smartphone2);
+        System.out.println(sm);
     }
 }
